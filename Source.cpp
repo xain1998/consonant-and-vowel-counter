@@ -22,10 +22,8 @@ int main()
 		system("cls");
 	} while ((choice < 1) || (choice > 3));
 
-
 	string words;
 	cout << "Please enter a string.\n";
-	//cin.ignore();
 	getline(cin, words);
 
 	switch (choice)
